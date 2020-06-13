@@ -16,13 +16,14 @@
 
 section {
     width: 100%;
-    min-height: 100vh;
     color: white;
     font-family: Lemon;
     display: flex;
     background: #333333;
     flex-wrap: wrap;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 section div {
