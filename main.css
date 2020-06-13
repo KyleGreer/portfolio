@@ -16,32 +16,38 @@
 section {
     width: 100%;
     min-height: 100vh;
-    position: relative;
     color: white;
     font-family: Lemon;
     display: flex;
     background: #333333;
 }
 
+section p {
+    margin: auto;
+    bottom: 0;
+    font-family: Lemon;
+}
+
 section h1 {
     margin: auto;
-    font-size: px;
+    font-size: 25px;
     font-family: Lemon;
 }
 
 
 /* Global style for every navigation */
 
-section nav {
+nav {
+    z-index: 10;
     width: 100%;
     padding: 14px;
     position: absolute;
-    bottom: 0;
+    text-align: center;
     background: #424242;
     font-family: Lemon;
 }
 
-section nav a {
+nav a {
     text-decoration: none;
     display: inline-block;
     font-family: Lemon;
@@ -49,19 +55,35 @@ section nav a {
     margin-right: 14px;
 }
 
-section nav a:hover {
+nav a:hover {
     color: lightgray;
 }
 
 
-/* Separate styles for each section */
+/* Main */
 
-.main {}
+.main {
+    height: 20vh;
+}
+
+
+/* Websites */
 
 .websites {}
 
+
+/* Software */
+
 .software {}
+
+
+/* Games */
 
 .games {}
 
-.about {}
+
+/* About */
+
+.about {
+    height: 20vh;
+}
