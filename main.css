@@ -87,6 +87,8 @@ nav a:hover {
 
 .work {
   height: 100vh;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* Contact */
@@ -102,17 +104,16 @@ nav a:hover {
 }
 
 .modules {
-  width: 200px;
-  height: 200px;
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
   background-color: #424242;
-  margin: 100px;
   justify-content: center;
   flex-direction: column;
   flex-wrap: wrap;
-  display: flex;
   align-items: center;
+  width: 200px;
+  height: 200px;
+  float: left;
 }
 
 .modules h3 {
