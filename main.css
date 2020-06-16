@@ -1,103 +1,126 @@
 @font-face {
-    font-family: Lemon;
-    src: url(Fonts/LEMONMILK-Medium.otf);
+  font-family: Lemon;
+  src: url(Fonts/LEMONMILK-Medium.otf);
+}
+
+@font-face {
+  font-family: Lemon2;
+  src: url(Fonts/LEMONMILK-Regular.otf);
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: Lemon;
-    scroll-behavior: smooth;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Lemon;
+  scroll-behavior: smooth;
 }
-
 
 /* Global style for every section */
 
 section {
-    width: 100%;
-    color: white;
-    font-family: Lemon;
-    display: flex;
-    background: #333333;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  color: white;
+  font-family: Lemon;
+  display: flex;
+  background: #333333;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 section div {
-    width: 100%;
-    text-align: center;
+  width: 100%;
+  text-align: center;
 }
 
 section div p {
-    margin: auto;
-    bottom: 0;
-    font-family: Lemon;
-    display: block;
+  margin: auto;
+  bottom: 0;
+  font-family: Lemon;
+  display: block;
 }
 
 section div h1 {
-    margin: auto;
-    font-size: 25px;
-    font-family: Lemon;
+  margin: auto;
+  font-size: 25px;
+  font-family: Lemon;
 }
 
 section div h2 {
-    margin: auto;
-    display: block;
+  margin: auto;
+  display: block;
 }
-
 
 /* Global style for every navigation */
 
 nav {
-    z-index: 10;
-    width: 100%;
-    padding: 14px;
-    position: absolute;
-    text-align: center;
-    background: #424242;
-    font-family: Lemon;
+  z-index: 10;
+  width: 100%;
+  padding: 14px;
+  position: absolute;
+  text-align: center;
+  background: #424242;
+  font-family: Lemon;
 }
 
 nav a {
-    text-decoration: none;
-    display: inline-block;
-    font-family: Lemon;
-    color: #fff;
-    margin-right: 14px;
+  text-decoration: none;
+  display: inline-block;
+  font-family: Lemon;
+  color: #fff;
+  margin-right: 14px;
 }
 
 nav a:hover {
-    color: lightgray;
+  color: lightgray;
 }
-
 
 /* Main */
 
 .main {
-    height: 100vh;
+  height: 100vh;
 }
-
 
 /* Work */
 
 .work {
-    height: 20vh;
+  height: 25vh;
 }
-
 
 /* Contact */
 
 .contact {
-    height: 20vh;
+  height: 20vh;
 }
-
 
 /* About */
 
 .about {
-    height: 20vh;
+  height: 25vh;
+}
+
+.modules {
+  width: 200px;
+  height: 200px;
+  padding: 10px 10px 10px 10px;
+  border-radius: 5px;
+  background-color: #424242;
+  margin: auto;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.modules h3 {
+  margin: 0;
+  padding-bottom: 10px;
+}
+
+.modules p {
+  margin: 0;
+  font-family: Lemon2;
+  font-size: 13px;
 }
