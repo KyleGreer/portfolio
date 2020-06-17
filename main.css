@@ -31,6 +31,10 @@ section {
 
 section .container {
   text-align: center;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 section .container p {
@@ -42,9 +46,6 @@ section .container p {
 section .container h1 {
   font-size: 25px;
   font-family: Lemon;
-}
-
-section .container h2 {
 }
 
 /* Global style for every navigation */
@@ -95,16 +96,21 @@ nav a:hover {
   height: 25vh;
 }
 
+.modules_wrapper {
+  display: flex;
+  max-width: 800px;
+  flex-flow: wrap;
+  justify-content: space-evenly;
+}
+
 .modules {
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
   background-color: #424242;
+  flex-direction: column;
   width: 200px;
   height: 200px;
-  display: inline-block;
-  position: relative;
-  margin: 1%;
-  float: left;
+  margin: 20px;
 }
 
 .modules h3 {
@@ -116,4 +122,31 @@ nav a:hover {
   margin: 0;
   font-family: Lemon2;
   font-size: 13px;
+}
+
+.modalclass {
+  position: fixed;
+  left: 50%;
+  top: 20%;
+  transform: translate(-50%, -50%);
+  width: 700px;
+  height: 150px;
+  background-color: white;
+  z-index: 15;
+  display: none;
+}
+
+.button {
+  background-color: black;
+  border: none;
+  position: absolute;
+  color: white;
+  width: 120px;
+  height: 20px;
+  bottom: 0;
+}
+
+.quitbtn {
+  float: right;
+  padding-right: 5px;
 }
