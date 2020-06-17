@@ -25,32 +25,26 @@ section {
   display: flex;
   background: #333333;
   flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
 }
 
-section div {
-  width: 100%;
+section div .container {
   text-align: center;
 }
 
-section div p {
-  margin: auto;
+section div .container p {
   bottom: 0;
   font-family: Lemon;
-  display: block;
 }
 
-section div h1 {
-  margin: auto;
+section div .container h1 {
   font-size: 25px;
   font-family: Lemon;
 }
 
-section div h2 {
-  margin: auto;
-  display: block;
+section div .container h2 {
+  font-size: 500px;
 }
 
 /* Global style for every navigation */
@@ -87,8 +81,6 @@ nav a:hover {
 
 .work {
   height: 100vh;
-  display: flex;
-  justify-content: space-between;
 }
 
 /* Contact */
@@ -107,13 +99,8 @@ nav a:hover {
   padding: 10px 10px 10px 10px;
   border-radius: 5px;
   background-color: #424242;
-  justify-content: center;
-  flex-direction: column;
-  flex-wrap: wrap;
-  align-items: center;
   width: 200px;
   height: 200px;
-  float: left;
 }
 
 .modules h3 {
