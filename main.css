@@ -101,6 +101,10 @@ nav a:hover {
   background-color: #424242;
   width: 200px;
   height: 200px;
+  display: inline-block;
+  position: relative;
+  margin: 1%;
+  float: left;
 }
 
 .modules h3 {
