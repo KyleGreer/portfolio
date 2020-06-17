@@ -29,22 +29,22 @@ section {
   align-items: center;
 }
 
-section div .container {
+section .container {
   text-align: center;
 }
 
-section div .container p {
+section .container p {
   bottom: 0;
   font-family: Lemon;
+  text-align: left;
 }
 
-section div .container h1 {
+section .container h1 {
   font-size: 25px;
   font-family: Lemon;
 }
 
-section div .container h2 {
-  font-size: 500px;
+section .container h2 {
 }
 
 /* Global style for every navigation */
